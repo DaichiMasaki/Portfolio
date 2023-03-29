@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Components">
+      <UniqueIdentifier>{714ab073-af53-46f2-a4a2-debf68b2b00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actors">
+      <UniqueIdentifier>{4c5de96c-ada0-4268-a370-91bc15c08bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Components">
+      <UniqueIdentifier>{55944c9f-2066-4103-8ab3-c73d5419c1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Actors">
+      <UniqueIdentifier>{292b5cf7-3955-4a3e-b8f4-79c5254ac53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actors\Crystal">
+      <UniqueIdentifier>{10ca299b-9d11-4029-8792-f2d0b79c2a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Actors\Crystal">
+      <UniqueIdentifier>{fe958508-599c-4456-8ad6-ef671867aa21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actors\Object">
+      <UniqueIdentifier>{57e25193-7c78-4475-901f-94796c26788d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Actors\Object">
+      <UniqueIdentifier>{974dea1b-ae1d-4358-8025-ea3884f61142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Actors\Attack">
+      <UniqueIdentifier>{7802f6b2-fc6e-4435-96fa-dfb17589e107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actors\Attack">
+      <UniqueIdentifier>{07cc7a95-5495-4548-a806-343f96539694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{d7830fc6-17fc-4a0f-bc11-bb0774ca04a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game">
+      <UniqueIdentifier>{81b0c723-4985-4457-9730-8b2383cc0089}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Component.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBoxComponent.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveComponent.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ソース ファイル\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapCreate.cpp">
+      <Filter>ソース ファイル\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>ソース ファイル\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimSpriteComponent.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterAnimSpriteComponent.cpp">
+      <Filter>ソース ファイル\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Crystal.cpp">
+      <Filter>ソース ファイル\Actors\Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="RevVanishBlock.cpp">
+      <Filter>ソース ファイル\Actors\Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="VanishBlock.cpp">
+      <Filter>ソース ファイル\Actors\Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>ソース ファイル\Actors\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>ソース ファイル\Actors\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Punch.cpp">
+      <Filter>ソース ファイル\Actors\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Magic.cpp">
+      <Filter>ソース ファイル\Actors\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Wand.cpp">
+      <Filter>ソース ファイル\Actors\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimSpriteComponent.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBoxComponent.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveComponent.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ヘッダー ファイル\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapCreate.h">
+      <Filter>ヘッダー ファイル\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>ヘッダー ファイル\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterAnimSpriteComponent.h">
+      <Filter>ヘッダー ファイル\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Crystal.h">
+      <Filter>ヘッダー ファイル\Actors\Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="RevVanishBlock.h">
+      <Filter>ヘッダー ファイル\Actors\Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="VanishBlock.h">
+      <Filter>ヘッダー ファイル\Actors\Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>ヘッダー ファイル\Actors\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>ヘッダー ファイル\Actors\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Punch.h">
+      <Filter>ヘッダー ファイル\Actors\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Wand.h">
+      <Filter>ヘッダー ファイル\Actors\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic.h">
+      <Filter>ヘッダー ファイル\Actors\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
