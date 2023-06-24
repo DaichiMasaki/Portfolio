@@ -1,0 +1,12 @@
+﻿  Player.cpp
+E:\Users\hanba\game_programming\Project_game\Project_game\CharacterAnimSpriteComponent.h(18,35): warning C4244: 'return': 'const int' から 'float' への変換です。データが失われる可能性があります。
+E:\Users\hanba\game_programming\Project_game\Project_game\CharacterAnimSpriteComponent.h(19,43): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+E:\Users\hanba\game_programming\Project_game\Project_game\InputComponent.h(14,34): warning C4244: 'return': 'const float' から 'int' への変換です。データが失われる可能性があります。
+E:\Users\hanba\game_programming\Project_game\Project_game\Player.cpp(14,13): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+E:\Users\hanba\game_programming\Project_game\Project_game\Player.cpp(144,18): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+E:\Users\hanba\game_programming\Project_game\Project_game\Player.cpp(183,17): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+  Project_game.vcxproj -> E:\Users\hanba\game_programming\Project_game\x64\Debug\Project_game.exe
+  E:\Users\hanba\game_programming\SDL2-2.26.1\lib\x64\SDL2.dll
+  1 個のファイルをコピーしました
+  E:\Users\hanba\game_programming\SDL2_image-2.6.2\lib\x64\SDL2_image.dll
+  1 個のファイルをコピーしました
